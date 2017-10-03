@@ -12,6 +12,8 @@ public class HashSetDemo1 {
 		h.add("l");
 		System.out.println(h.add("Z")); // false
 		h.add(10);
+		
+		h.add(50);
 
 		System.out.println(h); // [null, A, Z, 10, l]
 	}
